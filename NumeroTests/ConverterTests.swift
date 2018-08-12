@@ -22,6 +22,11 @@ class ConverterTests: XCTestCase {
         super.tearDown()
     }
     
+    func testConverstionForZero() {
+        let result = converter.convert(0)
+        XCTAssertEqual(result, "", "Conversion for 0 is incorrect")
+    }
+    
     func testConversionForOne() {
         let result = converter.convert(1)
         XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
@@ -60,6 +65,11 @@ class ConverterTests: XCTestCase {
     func testConversionForTwenty() {
         let result = converter.convert(20)
         XCTAssertEqual(result, "XX", "Conversion for 20 is incorrect")
+    }
+    
+    func testConverstionFor3999() {
+        let result = converter.convert(3999)
+        XCTAssertEqual(result, "MMMCMXCIX", "Conversion for 3999 is incorrect")
     }
     
 }
