@@ -1,5 +1,6 @@
 # Numero
 
+![iOS platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
 [![Swift 4.1](http://img.shields.io/badge/swift-4.1-brightgreen.svg)](https://swift.org)
 [![RayWenderlich](https://img.shields.io/badge/source-RayWenderlich.com-brightgreen.svg)](https://raywenderlich.com)
 
